@@ -1,6 +1,6 @@
 # whaledo-containers
 
-Docker containers for whaledo!
+Docker containers for [whaledo](https://github.com/duckinator/whaledo).
 
 ## Development
 
