@@ -12,7 +12,7 @@ Part of [whaledo-containers](https://github.com/duckinator/whaledo-containers).
     $ cd rubygems
     $ whaledo rgdev setup
     <work on code>
-    $ rgdev rake test
+    $ whaledo rgdev rake test
 
 OR:
 
