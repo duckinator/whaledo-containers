@@ -1,5 +1,0 @@
-Usage: whaledo USER/REPO COMMAND [ARGS...]
-       whaledo WHALEDO_REPO COMMAND [ARGS...]
-
-If you want an official repo, prefix it with "library/".
-E.g., to use the official Ruby image, you can do `whaledo library/ruby`.
