@@ -1,6 +1,13 @@
 # whaledo-containers
 
-Docker containers for [whaledo](https://github.com/duckinator/whaledo).
+Docker images for [whaledo](https://github.com/duckinator/whaledo).
+
+Images include:
+
+* c-development
+* os-development-x86
+* rgdev
+* sdl2
 
 ## Development
 
