@@ -1,3 +1,8 @@
 FROM whaledo/os-development-x86:latest
 
-ADD https://www.kernel.org/pub/linux/utils/boot/syslinux/Testing/6.04/syslinux-6.04-pre1.tar.gz /tmp/syslinux/
+ARG SYSLINUX_VERSION=6.03
+RUN apk add --no-cache wget && \
+    cd /tmp && \
+    wget https://www.kernel.org/pub/linux/utils/boot/syslinux/syslinux-${SYSLINUX_VERSION}.tar.gz && \
+    tar xzf /tmp/syslinux-${SYSLINUX_VERSION}.tar.gz && \
+    mv /tmp/syslinux-${SYSLINUX_VERSION} /tmp/syslinux
