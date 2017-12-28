@@ -7,4 +7,4 @@ A Docker image for [whaledo](https://github.com/duckinator/whaledo) which builds
 * qemu-system-i386
 * qemu-system-x86_64
 
-Part of [whaledo-containers](https://github.com/duckinator/whaledo-containers).
+Part of [whaledo-images](https://github.com/duckinator/whaledo-images).

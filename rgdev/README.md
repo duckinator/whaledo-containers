@@ -3,7 +3,7 @@
 A Docker setup for creating a reproducible development environment for
 working on RubyGems, because Hoe is difficult for many contributors.
 
-Part of [whaledo-containers](https://github.com/duckinator/whaledo-containers).
+Part of [whaledo-images](https://github.com/duckinator/whaledo-images).
 
 ## Usage
 
