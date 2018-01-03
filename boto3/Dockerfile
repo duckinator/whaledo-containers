@@ -1,4 +1,4 @@
-FROM whaledo/python3:edge
+FROM whaledo/python3:latest
 
 RUN pip install boto3
 
