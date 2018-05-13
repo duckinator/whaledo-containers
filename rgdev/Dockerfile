@@ -10,4 +10,4 @@ RUN useradd --create-home --shell /bin/bash developer && \
 
 USER developer
 
-RUN gem install rgdev_dependencies
+RUN gem install rake
