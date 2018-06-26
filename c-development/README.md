@@ -2,8 +2,7 @@
  
 A Docker image for [whaledo](https://github.com/duckinator/whaledo) which includes the following packages:
 
-* alpine-sdk
-* gcc
+* build-base
 * clang
 * nasm
 * make
