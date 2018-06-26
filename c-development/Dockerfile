@@ -1,3 +1,3 @@
 FROM alpine:edge
 
-RUN apk add --no-cache build-base clang nasm make git
+RUN apk add --no-cache binutils clang nasm make git
